@@ -1,0 +1,143 @@
+body{
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar
+{
+    background-color: transparent;
+    border: none;
+}
+.navbar-brand img
+{
+    width: 60px;
+    height: 60px;
+}
+.nav
+{
+    padding: 0px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.navbar-nav{
+    margin-left: 20%;
+    margin-bottom: 2%;
+    margin-top: 1.5%;
+}
+.img-rounded
+{
+    margin-left: 60%;
+    margin-top: 0;
+    
+}
+
+.greetings{
+    font-size: 20px;
+}
+.first_name {
+    font-size: 36px;
+    color: #e74c3c;
+}
+
+.last_name {
+    font-size: 36px;
+    color: #333;
+}
+
+.desg {
+    font-size: 20px;
+    color: #777;
+}
+.disc {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.571);
+}
+.details
+{
+    margin-left: 2%;
+    margin-top: 5%;
+    position: absolute;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  a:hover
+  {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  p
+  {
+    font-size: 20px;
+    margin-top: 10%;
+  }
+
+  .img-dd{
+    margin-left: 800px;
+    height: 500px;
+    width: 500px;
+  }
+  .a-social a:hover{
+	background-color:#000000;
+	box-shadow:2px 2px 12px brown;
+	transition:all ease 0.5s;
+}
+.a-social a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+
+.a-social{
+	position: fixed;
+	top:50%;
+	right:0px;
+	transform:translateY(-50%);
+}
+.a-social a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:50px;
+	height:50px; 
+	margin:0px;
+	padding: 0px;
+	line-height:0px;
+	background-color:#FFFFFF;
+	border:1px solid #cbcbcb;
+	box-shadow:2px 2px 12px rgba(236, 211, 211, 0.2);
+}
+.a-social i{
+	font-size:20px;
+	color:#2B2B2B;
+}
+.contact-me{ 
+    margin-left: 500px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+.contact-me button{
+    height: 40px;
+    width:150px;
+    margin-right: 100px;
+    align-items: center;
+    margin-left: 100px;
+    
+
+}
